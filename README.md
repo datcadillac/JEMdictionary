@@ -5,12 +5,11 @@ Group JEM
 1. Nguyen Tien Dat - 20020167
 
 ## Description
-The application is designed to support learning English. The application is written in Java and uses the JavaFX library. The application is based on the MVC model. The application has two types of dictionaries: English-Vietnamese and Vietnamese-English. The application use E_V.txt and V_E.txt files to store data.
+The application is designed to support learning English. The application is written in Java and uses the JavaFX library. The application is based on the MVC model.
 1. The application is designed to support learning English.
 2. The application is written in Java and uses the JavaFX library.
 3. The application is based on the MVC model.
-4. The application has two types of dictionaries: English-Vietnamese and Vietnamese-English.
-5. The application use dictionaries.txt and question.txt files to store data.
+4. The application use dictionaries.txt and question.txt files to store data.
 
 ## UML diagram
 ![UML diagram](/src/resource/media/image/diagram.png)
@@ -28,12 +27,15 @@ The application is designed to support learning English. The application is writ
 4. To delete a word, click the Delete button.
 5. To edit a word, click the Edit button.
 6. To save the changes, click the Save button.
-7. To pronounce the word, click the Pronounce button (Speaker icon).
+7. To pronounce the word, click the Pronounce button (Speaker icon). 
 8. To practice, click the Game button (Game icon), then the application will display a Game window.
    + In the Game window, click the Start button to start the game.
    + The application will display 10 question with 4 option to choose. You need to choose the right answer for each question.
    + After answer all 10 question, the app will display your number of correct and wrong answers.
    + To play again, click the New game button
+9. To use Google Translate, click the Google Translate button, then the application will display a Google Translate window with 2 fields: input and output.
+   + Type your input text and press Enter, meanings fill be displayed in output field.
+   + To pronounce the word, click the Pronounce button (Speaker icon).
 ## Demo
 Home page
 
