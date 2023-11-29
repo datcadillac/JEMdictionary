@@ -1,0 +1,480 @@
+#How many consonants are there in the English alphabet?
+19
+20
+21
+22
+@21
+#Who invented the Light bulb?
+Thomas Alva Edison
+Alexander Fleming
+Charles Babbage
+Albert Einstein
+@Thomas Alva Edison
+#What is the capital of France?
+Paris
+Berlin
+Madrid
+Rome
+@Paris
+#What is the largest planet in our solar system?
+Mars
+Jupiter
+Venus
+Saturn
+@Jupiter
+#Who wrote the play "Romeo and Juliet"?
+William Shakespeare
+Jane Austen
+Charles Dickens
+Leo Tolstoy
+@William Shakespeare
+#What is the capital of Japan?
+Seoul
+Beijing
+Tokyo
+Bangkok
+@Tokyo
+#Which gas do plants absorb from the atmosphere during photosynthesis?
+Oxygen
+Carbon Dioxide
+Nitrogen
+Hydrogen
+@Carbon Dioxide
+#What is the capital of Australia?
+Wellington
+Canberra
+Sydney
+Melbourne
+@Canberra
+#Who is known as the "Father of Computer Science"?
+Alan Turing
+Ada Lovelace
+Bill Gates
+Steve Jobs
+@Alan Turing
+#What is the capital of Brazil?
+Brasília
+Rio de Janeiro
+São Paulo
+Buenos Aires
+@Brasília
+#What is the boiling point of water in Celsius?
+80°C
+100°C
+120°C
+150°C
+@100°C
+#Who painted the Mona Lisa?
+Vincent van Gogh
+Pablo Picasso
+Leonardo da Vinci
+Claude Monet
+@Leonardo da Vinci
+#What is the currency of India?
+Rupee
+Yen
+Euro
+Dollar
+@Rupee
+#Which planet is known as the Red Planet?
+Mars
+Venus
+Saturn
+Jupiter
+@Mars
+#Who developed the theory of relativity?
+Isaac Newton
+Galileo Galilei
+Albert Einstein
+Stephen Hawking
+@Albert Einstein
+#What is the largest ocean on Earth?
+Atlantic Ocean
+Indian Ocean
+Arctic Ocean
+Pacific Ocean
+@Pacific Ocean
+#Who wrote "To Kill a Mockingbird"?
+Harper Lee
+J.K. Rowling
+George Orwell
+Mark Twain
+@Harper Lee
+#What is the capital of China?
+Seoul
+Beijing
+Tokyo
+Bangkok
+@Beijing
+#What is the chemical symbol for gold?
+Au
+Ag
+Fe
+Cu
+@Au
+#Which element has the atomic number 1?
+Hydrogen
+Oxygen
+Carbon
+Helium
+@Hydrogen
+#Who is the current President of the United States (as of 2023)?
+Joe Biden
+Donald Trump
+Barack Obama
+George W. Bush
+@Joe Biden
+#What is the speed of light in a vacuum?
+100,000 km/s
+300,000 km/s
+500,000 km/s
+700,000 km/s
+@300,000 km/s
+#Who discovered penicillin?
+Marie Curie
+Alexander Fleming
+Louis Pasteur
+Antoine Lavoisier
+@Alexander Fleming
+#What is the largest mammal on Earth?
+Elephant
+Blue Whale
+Giraffe
+Hippopotamus
+@Blue Whale
+#In which year did the first human land on the moon?
+1965
+1969
+1973
+1978
+@1969
+#Who is the author of "The Great Gatsby"?
+Ernest Hemingway
+F. Scott Fitzgerald
+J.D. Salinger
+Jane Austen
+@F. Scott Fitzgerald
+#What is the capital of South Africa?
+Cairo
+Lagos
+Pretoria
+Nairobi
+@Pretoria
+#Which gas makes up the majority of the Earth's atmosphere?
+Oxygen
+Nitrogen
+Carbon Dioxide
+Helium
+@Nitrogen
+#Who is known as the "Queen of Pop"?
+Beyoncé
+Madonna
+Lady Gaga
+Taylor Swift
+@Madonna
+#What is the smallest prime number?
+1
+2
+3
+5
+@2
+#Which planet is known as the "Morning Star" or "Evening Star"?
+Mars
+Venus
+Mercury
+Saturn
+@Venus
+#Who developed the first practical telephone?
+Alexander Graham Bell
+Nikola Tesla
+Thomas Edison
+Guglielmo Marconi
+@Alexander Graham Bell
+#What is the currency of Japan?
+Yuan
+Won
+Yen
+Ringgit
+@Yen
+#In which year did World War II end?
+1943
+1945
+1947
+1950
+@1945
+#Who painted the Starry Night?
+Vincent van Gogh
+Pablo Picasso
+Claude Monet
+Edvard Munch
+@Vincent van Gogh
+#What is the capital of Mexico?
+Bogotá
+Lima
+Mexico City
+Caracas
+@Mexico City
+#What is the chemical symbol for water?
+H2O
+CO2
+NaCl
+O2
+@H2O
+#Which planet is known as the "Red Planet"?
+Mars
+Venus
+Saturn
+Jupiter
+@Mars
+#Who is the author of "1984"?
+George Orwell
+Aldous Huxley
+Ray Bradbury
+J.R.R. Tolkien
+@George Orwell
+#What is the capital of Italy?
+Paris
+Berlin
+Madrid
+Rome
+@Rome
+#What is the melting point of ice in Celsius?
+0°C
+-10°C
+10°C
+20°C
+@0°C
+#How many continents are there on Earth?
+4
+6
+7
+9
+@7
+#Who discovered the laws of motion and gravity?
+Isaac Newton
+Galileo Galilei
+Johannes Kepler
+Nikola Tesla
+@Isaac Newton
+#What is the capital of Russia?
+Warsaw
+Prague
+Moscow
+Budapest
+@Moscow
+#What is the chemical symbol for iron?
+Fe
+Au
+Ag
+Cu
+@Fe
+#Who is known as the "Father of Medicine"?
+Hippocrates
+Galen
+Avicenna
+Paracelsus
+@Hippocrates
+#In which year did Christopher Columbus first reach the Americas?
+1492
+1501
+1510
+1525
+@1492
+#What is the currency of the United Kingdom?
+Euro
+Pound Sterling
+Dollar
+Franc
+@Pound Sterling
+#Who is the author of "Pride and Prejudice"?
+Charlotte Brontë
+Emily Brontë
+Jane Austen
+Charles Dickens
+@Jane Austen
+#What is the capital of Canada?
+Vancouver
+Ottawa
+Toronto
+Montreal
+@Ottawa
+#What is the speed of sound in air at sea level?
+300 m/s
+500 m/s
+700 m/s
+340 m/s
+@340 m/s
+#Who discovered radium and polonium?
+Marie Curie
+Albert Einstein
+Niels Bohr
+Enrico Fermi
+@Marie Curie
+#What is the largest desert in the world?
+Sahara Desert
+Gobi Desert
+Antarctica
+Arabian Desert
+@Antarctica
+#In which year did the Titanic sink?
+1910
+1912
+1915
+1918
+@1912
+#Who wrote "The Catcher in the Rye"?
+J.D. Salinger
+F. Scott Fitzgerald
+Ernest Hemingway
+Harper Lee
+@J.D. Salinger
+#What is the capital of China?
+Seoul
+Beijing
+Tokyo
+Bangkok
+@Beijing
+#Which element has the chemical symbol "K"?
+Potassium
+Krypton
+Kryptonite
+Platinum
+@Potassium
+#What is the smallest planet in our solar system?
+Mars
+Venus
+Mercury
+Pluto
+@Mercury
+#Who is known as the "Father of Evolution"?
+Charles Darwin
+Gregor Mendel
+Alfred Russel Wallace
+Jean-Baptiste Lamarck
+@Charles Darwin
+#What is the capital of South Korea?
+Seoul
+Tokyo
+Beijing
+Pyongyang
+@Seoul
+#What is the chemical symbol for gold?
+Au
+Ag
+Fe
+Cu
+@Au
+#How many planets are there in our solar system?
+7
+8
+9
+10
+@8
+#Who discovered the structure of DNA?
+James Watson and Francis Crick
+Rosalind Franklin
+Linus Pauling
+Gregor Mendel
+@James Watson and Francis Crick
+#What is the capital of Spain?
+Lisbon
+Barcelona
+Madrid
+Seville
+@Madrid
+#What is the chemical symbol for silver?
+Ag
+Au
+Pt
+Cu
+@Ag
+#Who is the author of "One Hundred Years of Solitude"?
+Gabriel García Márquez
+Mario Vargas Llosa
+Isabel Allende
+Jorge Luis Borges
+@Gabriel García Márquez
+#In which year did the Berlin Wall fall?
+1985
+1989
+1991
+1995
+@1989
+#What is the currency of Brazil?
+Peso
+Real
+Sol
+Dollar
+@Real
+#Who wrote "The Odyssey"?
+Homer
+Virgil
+Ovid
+Sophocles
+@Homer
+#What is the capital of Egypt?
+Cairo
+Alexandria
+Istanbul
+Riyadh
+@Cairo
+#What is the boiling point of ethanol in Celsius?
+78°C
+100°C
+64°C
+56°C
+@78°C
+#Who developed the theory of electromagnetism?
+Michael Faraday
+Maxwell Planck
+Niels Bohr
+Werner Heisenberg
+@Michael Faraday
+#What is the largest ocean on Earth?
+Atlantic Ocean
+Indian Ocean
+Arctic Ocean
+Pacific Ocean
+@Pacific Ocean
+#Who painted "The Last Supper"?
+Raphael
+Leonardo da Vinci
+Michelangelo
+Titian
+@Leonardo da Vinci
+#What is the capital of Argentina?
+Buenos Aires
+Santiago
+Lima
+Montevideo
+@Buenos Aires
+#What is the chemical symbol for sodium?
+So
+Na
+Sn
+Se
+@Na
+#Which element has the atomic number 79?
+Gold (Au)
+Silver (Ag)
+Copper (Cu)
+Iron (Fe)
+@Gold (Au)
+#Who is the first woman to win a Nobel Prize?
+Marie Curie
+Rosalind Franklin
+Dorothy Crowfoot Hodgkin
+Barbara McClintock
+@Marie Curie
+#What is the capital of South Africa?
+Cape Town
+Johannesburg
+Pretoria
+Durban
+@Pretoria
+#Who wrote "The Old Man and the Sea"?
+Ernest Hemingway
+F. Scott Fitzgerald
+John Steinbeck
+Jack London
+@Ernest Hemingway

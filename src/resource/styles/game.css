@@ -1,0 +1,134 @@
+
+.root {
+    -fx-font-family: "Gilroy";
+    -fx-font-size: 15;
+    -fx-background-color: #00000000;
+
+}
+
+.mainLabel {
+    -fx-text-alignment: center;
+    -fx-text-fill: #000000;
+    -fx-font-size: 35;
+    -fx-font-weight: bold;
+    -fx-font-family: "Showcard Gothic";
+}
+
+.nav1 {
+    -fx-background-color: #ffffff; /* Mã màu xám */
+    -fx-text-fill: #000000; /* Mã màu trắng cho màu chữ */
+    -fx-font-weight: bold;
+}
+
+.nav1:hover {
+    -fx-text-fill: #1cb0f6; /* Mã màu xám đậm khi hover */
+}
+
+.nav2 {
+    -fx-background-color: #f1f4f7; /* Mã màu xám */
+    -fx-text-fill: #1cb0f6; /* Mã màu trắng cho màu chữ */
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+.nav2:hover {
+    -fx-text-fill: #1cb0f6; /* Mã màu xám đậm khi hover */
+}
+.question {
+    -fx-font-weight: 800;
+    -fx-border-color: #ffffff; /* Mã màu đen cho viền */
+    -fx-border-radius: 70; /* Độ cong của góc (có thể điều chỉnh theo ý muốn) */
+    -fx-text-fill: #280a82; /* Mã màu trắng cho màu chữ */
+    -fx-border-width: 3;
+    -fx-background-color: #ffffff; /* Mã màu xám */
+    -fx-background-radius: 70;
+    -fx-text-alignment: center;
+    -fx-padding: 10;
+    -fx-font-size: 20;
+}
+
+.questionLabel {
+    -fx-border-color: #ffffff; /* Mã màu đen cho viền */
+    -fx-border-radius: 40; /* Độ cong của góc (có thể điều chỉnh theo ý muốn) */
+    -fx-text-fill: #000000; /* Mã màu trắng cho màu chữ */
+    -fx-border-width: 0;
+    -fx-background-color: #ffb184; /* Mã màu xám */
+    -fx-background-radius: 40;
+    -fx-text-alignment: center;
+    -fx-padding: 10;
+}
+.option {
+    -fx-text-fill: #ffffff; /* Mã màu trắng cho màu chữ */
+    -fx-font-weight: 700;
+    -fx-border-width: 0;
+    -fx-background-color: #1cb0f6; /* Mã màu xám */
+    -fx-background-radius: 40;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+
+.option:hover {
+    -fx-background-color: #ff9051;
+}
+
+.playButton {
+    -fx-background-color: #4CAF50; /* Green background color */
+    -fx-background-radius: 50;
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-font-size: 14pt; /* Font size */
+    -fx-padding: 10 20; /* Padding */
+}
+
+.playButton:hover {
+    -fx-background-color: #45A049; /* Darker green on hover */
+}
+
+.score {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 50;
+    -fx-background-color: #ff9051;
+    -fx-background-radius: 60;
+}
+
+.backScore {
+    -fx-border-radius: 40;
+    -fx-background-radius: 40;
+    -fx-background-color: #ffffff;
+}
+
+.newGame {
+    -fx-background-color: #ff9051;
+    -fx-background-radius: 80;
+    -fx-border-radius: 80;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+.newGame:hover {
+    -fx-text-fill: #ff0000;
+}
+.playLabel {
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffffff; /* Mã màu trắng cho màu chữ */
+    -fx-border-width: 3;
+    -fx-text-alignment: center;
+    -fx-padding: 10;
+    -fx-font-size: 40;
+}
+
+.playDetailLabel {
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffffff; /* Mã màu trắng cho màu chữ */
+    -fx-border-width: 3;
+    -fx-text-alignment: center;
+    -fx-padding: 10;
+    -fx-font-size: 20;
+}
+
+.resultNum {
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffffff; /* Mã màu trắng cho màu chữ */
+    -fx-border-width: 3;
+    -fx-text-alignment: center;
+    -fx-padding: 10;
+    -fx-font-size: 70;
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="744.0" prefWidth="893.0" stylesheets="@../resource/styles/main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.ui.MainController">
+   <ImageView fitHeight="595.0" fitWidth="894.0" layoutY="148.0" pickOnBounds="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <image>
+         <Image url="@../resource/media/normal/BG.png" />
+      </image>
+   </ImageView>
+   <TextField fx:id="searchField" layoutX="76.0" layoutY="165.0" onKeyPressed="#changeFocusDown" onKeyTyped="#updateSearchView" prefHeight="50.0" prefWidth="200.0" promptText="Search" styleClass="searchBar" stylesheets="@../resource/styles/main.css" />
+   <ListView fx:id="searchView" layoutX="76.0" layoutY="240.0" onKeyPressed="#selectWord" onMouseClicked="#clickWord" prefHeight="370.0" prefWidth="200.0" styleClass="searchBar" stylesheets="@../resource/styles/main.css" />
+   <ImageView fitHeight="89.0" fitWidth="105.0" layoutX="50.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../resource/media/normal/Logo.png" />
+      </image>
+   </ImageView>
+   <AnchorPane layoutX="183.0" layoutY="65.0" prefHeight="50.0" prefWidth="600.0" stylesheets="@../resource/styles/main.css">
+      <children>
+         <Button fx:id="googleTranslate" layoutX="200.0" layoutY="1.0" mnemonicParsing="false" onAction="#setGoogleTranslateScene" prefHeight="50.0" prefWidth="200.0" styleClass="nav2" stylesheets="@../resource/styles/main.css" text=" Google Translate">
+            <graphic>
+               <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../resource/media/normal/gg.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+         <Button fx:id="homeButton" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onAction="#setHomeScene" prefHeight="50.0" prefWidth="200.0" styleClass="nav1" stylesheets="@../resource/styles/main.css" text=" Home">
+            <graphic>
+               <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../resource/media/normal/home.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+         <ImageView fitHeight="5.0" fitWidth="75.0" layoutX="86.0" pickOnBounds="true">
+            <image>
+               <Image url="@../resource/media/normal/states.png" />
+            </image>
+         </ImageView>
+         <Button fx:id="gameButton" layoutX="400.0" layoutY="1.0" mnemonicParsing="false" onAction="#setGameScene" prefHeight="50.0" prefWidth="200.0" styleClass="nav2" stylesheets="@../resource/styles/main.css" text="Game">
+            <graphic>
+               <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../resource/media/normal/game.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+      </children>
+   </AnchorPane>
+   <AnchorPane layoutX="331.0" layoutY="235.0" prefHeight="370.0" prefWidth="478.0" styleClass="web-view" stylesheets="@../resource/styles/main.css" />
+   <HBox layoutX="336.0" layoutY="158.0" prefHeight="65.0" prefWidth="478.0">
+      <children>
+         <Button fx:id="addButton" mnemonicParsing="false" onAction="#addWord" prefHeight="50.0" prefWidth="110.0" styleClass="funcButton" stylesheets="@../resource/styles/main.css" text="Add">
+            <graphic>
+               <ImageView fitHeight="24.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../resource/media/normal/plus-circle.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+         <Button fx:id="editButton" mnemonicParsing="false" onAction="#editWord" prefHeight="50.0" prefWidth="110.0" styleClass="funcButton" stylesheets="@../resource/styles/main.css" text="Edit">
+            <graphic>
+               <ImageView fitHeight="17.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../resource/media/normal/🦆%20icon%20_pencil%202_.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+            <HBox.margin>
+               <Insets left="20.0" />
+            </HBox.margin>
+         </Button>
+         <Button fx:id="delButton" mnemonicParsing="false" onAction="#deleteWord" prefHeight="50.0" prefWidth="105.0" styleClass="funcButton" stylesheets="@../resource/styles/main.css" text="Delete">
+            <graphic>
+               <ImageView fitHeight="21.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../resource/media/normal/trash-2.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+            <HBox.margin>
+               <Insets left="20.0" />
+            </HBox.margin>
+         </Button>
+         <Button fx:id="exportButton" mnemonicParsing="false" onAction="#setExportButton" prefHeight="50.0" prefWidth="110.0" styleClass="funcButton" stylesheets="@../resource/styles/main.css" text="Export">
+            <graphic>
+               <ImageView fitHeight="30.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../resource/media/normal/🦆%20icon%20_enter_.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+            <HBox.margin>
+               <Insets left="20.0" />
+            </HBox.margin>
+         </Button>
+      </children>
+   </HBox>
+   <Button fx:id="importButton" layoutX="128.0" layoutY="519.0" mnemonicParsing="false" onAction="#importFromFile" prefHeight="50.0" prefWidth="95.0" styleClass="funcButton" stylesheets="@../resource/styles/main.css" text="Import">
+      <graphic>
+         <ImageView fitHeight="23.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../resource/media/normal/🦆%20icon%20_update_.png" />
+            </image>
+         </ImageView>
+      </graphic>
+   </Button>
+   <AnchorPane layoutX="341.0" layoutY="245.0" prefHeight="372.0" prefWidth="478.0" styleClass="web-view" stylesheets="@../resource/styles/main.css">
+      <children>
+         <WebView fx:id="mainView" layoutX="6.0" layoutY="6.0" prefHeight="360.0" prefWidth="465.0" stylesheets="@../resource/styles/main.css" />
+         <Button fx:id="pronButton" layoutX="379.0" layoutY="14.0" mnemonicParsing="false" onAction="#setPronButton" prefHeight="50.0" prefWidth="85.0" styleClass="pronounce" stylesheets="@../resource/styles/main.css" visible="false">
+            <graphic>
+               <ImageView fitHeight="35.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../resource/media/normal/volume-2.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+         <ImageView fitHeight="159.0" fitWidth="229.0" layoutX="124.0" layoutY="186.0" opacity="0.38" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../resource/media/normal/view%20back.png" />
+            </image>
+         </ImageView>
+      </children>
+   </AnchorPane>
+   <Label alignment="CENTER" layoutX="334.0" layoutY="13.0" prefHeight="40.0" prefWidth="301.0" styleClass="mainLabel" stylesheets="@../resource/styles/main.css" text="JEMdictionary" />
+   <ImageView fitHeight="49.0" fitWidth="894.0" layoutY="695.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0">
+      <image>
+         <Image url="@../resource/media/normal/footer.png" />
+      </image>
+   </ImageView>
+</AnchorPane>

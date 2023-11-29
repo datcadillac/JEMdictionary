@@ -1,0 +1,61 @@
+
+.root {
+    -fx-font-family: "Gilroy";
+    -fx-font-size: 15;
+    -fx-background-color: #00000000;
+
+}
+
+.mainLabel {
+    -fx-text-alignment: center;
+    -fx-text-fill: #000000;
+    -fx-font-size: 35;
+    -fx-font-weight: bold;
+    -fx-font-family: "Showcard Gothic";
+}
+
+.nav1 {
+    -fx-background-color: #ffffff; /* Mã màu xám */
+    -fx-text-fill: #000000; /* Mã màu trắng cho màu chữ */
+    -fx-font-weight: bold;
+}
+
+.nav1:hover {
+    -fx-text-fill: #1cb0f6; /* Mã màu xám đậm khi hover */
+}
+
+.nav2 {
+    -fx-background-color: #f1f4f7; /* Mã màu xám */
+    -fx-text-fill: #1cb0f6; /* Mã màu trắng cho màu chữ */
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+.nav2:hover {
+    -fx-text-fill: #1cb0f6; /* Mã màu xám đậm khi hover */
+}
+
+.pronounce {
+    -fx-background-color: transparent;
+}
+
+.web-view {
+    -fx-border-color: #000000; /* Mã màu đen cho viền */
+    -fx-border-radius: 10; /* Độ cong của góc (có thể điều chỉnh theo ý muốn) */
+    -fx-text-fill: #000000; /* Mã màu trắng cho màu chữ */
+    -fx-border-width: 3;
+    -fx-background-color: #ffffff; /* Mã màu xám */
+    -fx-background-radius: 10;
+    background-color: #f1f4f7; /* Mã màu xám */
+}
+
+.text-area{
+    -fx-background-color: #fff, #fff;
+}
+
+.text-area .content {
+    -fx-background-color: #fff;
+}
+
+.text-area:focused .content {
+    -fx-background-color: #fff;
+}

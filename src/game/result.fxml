@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="744.0" prefWidth="893.0" stylesheets="@../resource/styles/game.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.game.ResultController">
+   <children>
+      <ImageView fitHeight="595.0" fitWidth="894.0" layoutY="149.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resource/media/normal/BG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="105.0" layoutX="50.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/media/normal/Logo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="183.0" layoutY="65.0" prefHeight="50.0" prefWidth="600.0" stylesheets="@../resource/styles/google.css">
+         <children>
+            <Button fx:id="googleTranslate" layoutX="202.0" layoutY="1.0" mnemonicParsing="false" onAction="#setGoogleTranslateScene" prefHeight="50.0" prefWidth="200.0" styleClass="nav1" stylesheets="@../resource/styles/game.css" text=" Google Translate">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resource/media/normal/gg.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="homeButton" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onAction="#setHomeScene" prefHeight="50.0" prefWidth="200.0" styleClass="nav1" stylesheets="@../resource/styles/game.css" text=" Home">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resource/media/normal/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="gameButton" layoutX="402.0" layoutY="1.0" mnemonicParsing="false" onAction="#setGameScene" prefHeight="50.0" prefWidth="200.0" styleClass="nav2" stylesheets="@../resource/styles/game.css" text="Game">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resource/media/normal/game.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="5.0" fitWidth="45.0" layoutX="495.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../resource/media/normal/states.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="334.0" layoutY="13.0" prefHeight="40.0" prefWidth="301.0" styleClass="mainLabel" stylesheets="@../resource/styles/game.css" text="JEMdictionary" />
+      <ImageView fitHeight="49.0" fitWidth="894.0" layoutY="695.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resource/media/normal/footer.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="218.0" layoutY="233.0" prefHeight="271.0" prefWidth="458.0" styleClass="backScore">
+         <children>
+            <Label fx:id="correcttext" alignment="CENTER" layoutX="31.0" layoutY="192.0" prefHeight="26.0" prefWidth="152.0" text="Số câu đúng: 9" textFill="GREEN">
+               <font>
+                  <Font name="Open Sans Semibold" size="17.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="495.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/media/normal/wrong%20ans.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="248.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/media/normal/right%20ans.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="playquizbtn" layoutX="376.0" layoutY="481.0" mnemonicParsing="false" onAction="#setPlayquizbtn" prefHeight="73.0" prefWidth="144.0" styleClass="newGame" stylesheets="@../resource/styles/game.css" text="New Game" />
+      <Label alignment="CENTER" layoutX="376.0" layoutY="191.0" prefHeight="65.0" prefWidth="152.0" styleClass="question" text="Result">
+         <font>
+            <Font name="Open Sans Extrabold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="markstext" alignment="CENTER" layoutX="713.0" layoutY="314.0" prefHeight="26.0" prefWidth="107.0" text="9 điểm" textFill="#1f3eff">
+         <font>
+            <Font name="Open Sans Semibold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="wrongtext" alignment="CENTER" layoutX="495.0" layoutY="421.0" prefHeight="26.0" prefWidth="150.0" text="Số câu sai: 1" textFill="RED">
+         <font>
+            <Font name="Open Sans Semibold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="marks" alignment="CENTER" layoutX="713.0" layoutY="191.0" prefHeight="107.0" prefWidth="107.0" styleClass="score" text="9" textFill="#1f3eff">
+         <font>
+            <Font name="Roboto Bold" size="30.0" />
+         </font>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </Label>
+      <Label fx:id="correctNum" alignment="CENTER" layoutX="287.0" layoutY="287.0" prefHeight="78.0" prefWidth="74.0" styleClass="resultNum" text="9" />
+      <Label fx:id="wrongNum" alignment="CENTER" layoutX="533.0" layoutY="287.0" prefHeight="78.0" prefWidth="74.0" styleClass="resultNum" text="1" />
+   </children>
+</AnchorPane>

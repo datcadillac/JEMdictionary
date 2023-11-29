@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="744.0" prefWidth="893.0" stylesheets="@../resource/styles/game.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.game.QuizController">
+   <children>
+      <ImageView fitHeight="595.0" fitWidth="894.0" layoutY="149.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resource/media/normal/BG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="515.0" fitWidth="446.0" layoutX="373.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/media/normal/back%20question.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="105.0" layoutX="50.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/media/normal/Logo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="183.0" layoutY="65.0" prefHeight="50.0" prefWidth="600.0" stylesheets="@../resource/styles/google.css">
+         <children>
+            <Button fx:id="googleTranslate" layoutX="202.0" layoutY="1.0" mnemonicParsing="false" onAction="#setGoogleTranslateScene" prefHeight="50.0" prefWidth="200.0" styleClass="nav1" stylesheets="@../resource/styles/game.css" text=" Google Translate">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resource/media/normal/gg.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="homeButton" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onAction="#setHomeScene" prefHeight="50.0" prefWidth="200.0" styleClass="nav1" stylesheets="@../resource/styles/game.css" text=" Home">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resource/media/normal/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="gameButton" layoutX="402.0" layoutY="1.0" mnemonicParsing="false" onAction="#setGameScene" prefHeight="50.0" prefWidth="200.0" styleClass="nav2" stylesheets="@../resource/styles/game.css" text="Game">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resource/media/normal/game.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="5.0" fitWidth="45.0" layoutX="495.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../resource/media/normal/states.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="334.0" layoutY="13.0" prefHeight="40.0" prefWidth="301.0" styleClass="mainLabel" stylesheets="@../resource/styles/game.css" text="JEMdictionary" />
+      <ImageView fitHeight="49.0" fitWidth="894.0" layoutY="695.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resource/media/normal/footer.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="question" alignment="CENTER" layoutX="94.0" layoutY="264.0" prefHeight="248.0" prefWidth="258.0" styleClass="question" text="Question" wrapText="true">
+         <font>
+            <Font name="Open Sans Semibold" size="19.0" />
+         </font>
+      </Label>
+      <VBox layoutX="399.0" layoutY="198.0" prefHeight="340.0" prefWidth="340.0">
+         <children>
+            <HBox prefHeight="170.0" prefWidth="340.0">
+               <children>
+                  <Button fx:id="opt1" mnemonicParsing="false" onAction="#opt1clicked" prefHeight="150.0" prefWidth="150.0" styleClass="option" text="Button" textFill="WHITE">
+                     <font>
+                        <Font name="Open Sans Semibold" size="17.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="opt2" fx:id="opt2" mnemonicParsing="false" onAction="#opt2clicked" prefHeight="150.0" prefWidth="150.0" styleClass="option" text="Button" textFill="WHITE">
+                     <font>
+                        <Font name="Open Sans Semibold" size="17.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="170.0" prefWidth="340.0">
+               <children>
+                  <Button id="opt3" fx:id="opt3" mnemonicParsing="false" onAction="#opt3clicked" prefHeight="150.0" prefWidth="150.0" styleClass="option" text="Button" textFill="WHITE">
+                     <font>
+                        <Font name="Open Sans Semibold" size="17.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button id="opt4" fx:id="opt4" mnemonicParsing="false" onAction="#opt4clicked" prefHeight="150.0" prefWidth="150.0" styleClass="option" text="Button" textFill="WHITE">
+                     <font>
+                        <Font name="Open Sans Semibold" size="17.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <ImageView fitHeight="127.0" fitWidth="161.0" layoutX="143.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/media/normal/question.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
